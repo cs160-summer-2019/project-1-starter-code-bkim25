@@ -1,3 +1,132 @@
-li {
-    color: green;
+body {
+  background-image: url("lod mappen.png");
+  background-size: 122%;
+  background-repeat: no-repeat;
+  background-position: 19% 8%;
+  background-attachment: fixed;
+}
+
+.a{
+    background-image: url("hurricane-icon.png");
+    background-size: 50%;
+    background-position:center;
+    background-repeat: no-repeat;
+    font-weight: bold;
+}
+.b{
+    background-image: url("wind-symbol.png");
+    background-size: 80%;
+    background-position:center;
+    background-repeat: no-repeat;
+    font-weight: bold;
+}
+.c{
+    background-image: url("arrow-icon.png");
+    background-size: 80%;
+    background-position:center;
+    background-repeat: no-repeat;
+    font-weight: bold;
+}
+.d{
+    background-image: url("water-icon.png");
+    background-size: 70%;
+    background-position:center;
+    background-repeat: no-repeat;
+    font-weight: bold;
+}
+.w{
+    background-image: url("warning-icon.png");
+    background-size: 70%;
+    background-position:center;
+    background-repeat: no-repeat;
+    font-weight: bold;
+}
+
+.pulled{}
+.unpulled{}
+
+.center {
+  color: white;
+  margin: auto;
+  width: 50%;
+  text-align: center;
+}
+
+.top-box {
+  background-image: linear-gradient(-70deg, lightsteelblue, gray);
+  border-bottom-right-radius: 70%;
+  border-bottom-left-radius: 70%;
+  position: relative;
+  height: 100%;
+}
+
+.top-box.pulled {
+  padding-top: 17%;
+}
+
+.top-box.unpulled {
+  padding-top: 0%;
+}
+
+.mid-box {
+  background-image: linear-gradient(18deg, azure, black);
+  position: fixed;
+  height: 100%;
+  padding-top: 30%;
+  padding-bottom: 55%;
+  bottom: 5;
+}
+
+.bottom-box {
+  background-image: linear-gradient(73deg, lightsteelblue, grey);
+  background-color: silver;
+  border-top-right-radius: 27%;
+  border-top-left-radius: 27%;
+  position: absolute;
+  width: 100%;
+  bottom:0;
+}
+
+.bottom-box.unpulled {
+  height: 35%;
+}
+
+.bottom-box.pulled {
+  height: 35%;
+}
+
+/* centering https://www.w3schools.com/css/css_align.asp */
+.centerbox { 
+  height: 10px;
+  position: relative;
+}
+
+.centerbox-p {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -85%);
+  border-radius: 30px;
+}
+
+/* tools */
+.drag-vertical {
+  
+}
+
+/* enabling iOS momentum scrolling https://css-tricks.com/snippets/css/momentum-scrolling-on-ios-overflow-elements/ */
+
+.pull-tabs {
+  font-size: xx-large;
+  border-radius: 16px;
+  background: #555520;
+  width: 40px;
+  height: 4px;
+  top: 3px;
+}
+
+.momentum-scroll {
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
 }

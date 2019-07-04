@@ -5,12 +5,87 @@
 <head>
 	<title>Forecast - Alert!</title>
 	
-	<link rel="stylesheet" type="text/css" href="{% static 'weather/vendors/bootstrap/css/bootstrap.css' %}" />
 	<link rel="stylesheet" type="text/css" href="{% static 'weather/css/style.css' %}" />
+  
+  <!-- https://getbootstrap.com/docs/4.2/getting-started/introduction/#starter-template -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
 </head>
 <body>
-	<!-- your single-location forecast with alert interface here -->
+  <div class="container-fluid top-box unpulled">
+    <div class="row">
+      <div class="col center" font-size="xx-large">17:00</div>
+    </div>
+    <div class="row">
+      <div class="center pull-tabs"></div>
+    </div>
+  </div>
+  
+    <div class="container-fluid mid-box centerbox centerbox-p">
+    <div class="row">
+      <div class="col center">17:00</div>
+    </div>
+    <div class="row">
+      <div class="col center">---</div>
+    </div>
+  </div>
+  
+  <div class="container-fluid bottom-box unpulled">
+    <div class="row">
+      <div class="center pull-tabs"></div>
+    </div>
+    <div class="row">
+      <div class="col center">[A] Tropical Storm Anne</div>
+    </div>
+        <div class="row">
+      <div class="col center">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col">
+                weather element a
+              </div>
+              <div class="col">
+                weather element b
+              </div>
+              <div class="col">
+                weather element c
+              </div>
+              <div class="col">
+                weather element d
+              </div>
+            </div>
+            <div class="row">
+              <div class="col">
+                time a
+              </div>
+              <div class="col center">
+                time b
+              </div>
+              <div class="col">
+                time c
+              </div>
+            </div>
+        </div></div>
+    </div>
+        <div class="row">
+      <div class="col center">---</div>
+    </div>
+        <div class="row">
+      <div class="col center">---</div>
+    </div>
+        <div class="row">
+      <div class="col center">---</div>
+    </div>
+        <div class="row">
+      <div class="col center">[B] Bergen Township</div>
+    </div>
+  </div>
+  
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
 </html>
 
